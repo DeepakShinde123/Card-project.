@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  main {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    height: 400px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+  
+  .a {
+    background-color: red;
+    position: relative;
+    left: 20px;
+    rotate: -20deg;
+    background: radial-gradient(
+        65% 100% at 50% 0%,
+        #00ff94 0%,
+        rgba(0, 255, 148, 0.25) 100%
+      ),
+      linear-gradient(230deg, #000000 25%, #170059 100%),
+      linear-gradient(215deg, #ffebb9 10%, #19004e 80%),
+      radial-gradient(100% 245% at 100% 100%, #ffffff 0%, #000353 100%),
+      linear-gradient(125deg, #1400ff 0%, #3a0000 100%),
+      linear-gradient(
+        225deg,
+        #00f0ff 30%,
+        #000b6f 45%,
+        #00ebfc 45%,
+        #001676 65%,
+        #00e1f6 65%,
+        #001676 85%,
+        #00ecfd 85%,
+        #001676 100%
+      ),
+      linear-gradient(
+        135deg,
+        #00f0ff 0%,
+        #000b6f 15%,
+        #00ebfc 15%,
+        #001676 35%,
+        #00e1f6 35%,
+        #001676 55%,
+        #00ecfd 55%,
+        #001676 100%
+      );
+    background-blend-mode: soft-light, screen, overlay, overlay, difference,
+      overlay, normal;
+    box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #ffffff;
+  }
+  
+  .b {
+    background-color: yellow;
+    z-index: 1;
+    position: relative;
+    bottom: 60px;
+    rotate: -10deg;
+    background: linear-gradient(121deg, #ff0000 0%, #ff0000 100%),
+      linear-gradient(140deg, #ff5454 27%, #223dcb 100%),
+      linear-gradient(140deg, #4e9c51 0%, #001aff 72%),
+      linear-gradient(64deg, #6e00ff 0%, #0038ff 100%),
+      radial-gradient(52% 101.79% at 50% 50%, #707300 0%, #ff0000 100%),
+      radial-gradient(100% 100% at 70% 0%, #7a3b00 0%, #1dac92 100%);
+    background-blend-mode: overlay, overlay, difference, difference, color-burn,
+      exclusion;
+    box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #ffffff;
+  }
+  
+  .c {
+    background-color: blue;
+    position: relative;
+    right: 30px;
+    bottom: 80px;
+    z-index: 1;
+    /*   rotate: 1deg; */
+    z-index: 1;
+    background: linear-gradient(45deg, #000850 0%, #000320 100%),
+      radial-gradient(100% 225% at 100% 0%, #ff6928 0%, #000000 100%),
+      linear-gradient(225deg, #ff7a00 0%, #000000 100%),
+      linear-gradient(
+        135deg,
+        #cdffeb 10%,
+        #cdffeb 35%,
+        #009f9d 35%,
+        #009f9d 60%,
+        #07456f 60%,
+        #07456f 67%,
+        #0f0a3c 67%,
+        #0f0a3c 100%
+      );
+    background-blend-mode: screen, overlay, hard-light, normal;
+    box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #ffffff;
+  }
+  
+  .d {
+    background-color: yellow;
+    position: relative;
+    right: 60px;
+    bottom: 60px;
+    rotate: 10deg;
+    z-index: 1;
+    box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #ffffff;
+    background: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+  }
+  
+  .e {
+    background-color: red;
+    position: relative;
+    right: 80px;
+  /*   z-index: 1; */
+  botttom: 50px;
+    rotate: 18deg;
+    box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #ffffff;
+    background: linear-gradient(137.9deg, rgb(78, 156, 226) 7.8%, rgb(62, 146, 69) 16%, rgb(251, 220, 23) 32.7%, rgb(242, 160, 35) 50.4%, rgb(253, 12, 12) 71.5%, rgb(192, 26, 129) 83.1%);
+  }
+  
+  .card:hover {
+    cursor: pointer;
+    /*     transform:scale(1.1); */
+  }
+  
