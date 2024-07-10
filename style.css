@@ -110,7 +110,7 @@
     right: 60px;
     bottom: 60px;
     rotate: 10deg;
-    z-index: 1;
+    /* z-index: 1; */
     box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #ffffff;
     background: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
   }
